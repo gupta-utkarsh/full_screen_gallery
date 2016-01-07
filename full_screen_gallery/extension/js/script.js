@@ -41,7 +41,7 @@ $(document).ready(function(){
 				$footer.fadeOut();
 				$set.fadeOut();
 				$search.fadeIn();
-				$current_state=0;
+				$settings_state=0;
 				$timer++;
 			}
 			else if($timer==7){
