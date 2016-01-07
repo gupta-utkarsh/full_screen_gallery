@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link href="css/font-awesome.min.css" typ="text/css" rel="stylesheet"/>
+		<link href="css/style.css" typ="text/css" rel="stylesheet"/>
+		<title>Gallery</title>
+	</head>
+	<body>
+		<header>
+			<div class="media">	
+				<img class="hide play" src="img/play.png"/>
+				<img class="display pause" src="img/pause.png"/>
+			</div>
+			<div class="settings">
+				<i class="fa fa-cog"></i>	
+			</div>	
+		</header>
+		<main>
+			<img src="img/img_1.jpg" alt=""/>
+		</main>
+		<footer class="control translucent">
+			<div class="wrap">
+				<div class="left">
+					<div class="leftmost"></div>
+					<img src="img/left.png"/>
+				</div>
+				<div class="slider">
+					<ul class="select">
+						<li><img src="img/img_1.jpg" alt=""/></li>
+						<li><img src="img/img_2.jpg" alt=""/></li>
+						<li><img src="img/img_3.jpg" alt=""/></li>
+						<li><img src="img/img_4.jpg" alt=""/></li>
+						<li><img src="img/img_5.jpg" alt=""/></li>
+						<li><img src="img/img_6.jpg" alt=""/></li>
+						<li><img src="img/img_7.jpg" alt=""/></li>
+						<li><img src="img/img_8.jpg" alt=""/></li>
+						<li><img src="img/img_9.jpg" alt=""/></li>
+						<li><img src="img/img_10.jpg" alt=""/></li>
+						<li><img src="img/img_11.jpg" alt=""/></li>
+						<li><img src="img/img_12.jpg" alt=""/></li>
+						<li><img src="img/img_13.jpg" alt=""/></li>
+						<li><img src="img/img_14.jpg" alt=""/></li>
+						<li><img src="img/img_15.jpg" alt=""/></li>
+					</uL>
+				</div>
+				<div class="right">
+					<img src="img/right.png"/>
+					<div class="rightmost"></div>
+				</div>
+			</div>
+		</footer>
+		<div class="box">
+		  	<div class="container">
+		    	<form class="form" action="" method="post">
+		    		<label>	
+		    			Time per Slide : 
+		    			<input type="number" id="timer" placeholder="Enter time(ms)" value="30000" required/>
+		    		</label>
+		    		<br/>
+		    		<label>
+		    			Skin Color :
+		    			<input type="color" id="color" value="#000000" required/>
+		    		</label>
+		    		<br/>		
+		    		<input type="submit" id="submit" value="Save Changes">
+		  		</form>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+	</body>
+</html>	

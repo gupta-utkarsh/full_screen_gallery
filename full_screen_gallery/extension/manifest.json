@@ -1,0 +1,9 @@
+{
+  "name": "Gallery new tab page",
+  "description": "A beatiful gallery",
+  "version": "0.2",
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "manifest_version": 2
+}
